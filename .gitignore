@@ -1,0 +1,6 @@
+.vscode/
+songs/
+media/
+downloads/
+__pycache__/
+*.mp3
