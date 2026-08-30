@@ -1,5 +1,5 @@
 # MiniMP3Stream (SMAP Protocol)
-[Project Introduce and Demo Video] (https://youtube.com/{url-link})
+[Project Introduce and Demo Video] (https://youtu.be/cStNlvDUO0M)
 
 **Project 1  Socket Programming: Adaptive-bitrate MP3 streaming client/server**
 
