@@ -77,13 +77,13 @@ class ConnectionClosedError(Exception):
 
 # Low level send helper
 def send_all(sock, data: bytes):
-    """
-    Send every byte in 'data', even if the OS only accepts part of it in a
-    single underlying send() call. socket.sendall() already loops internally
-    until everything is sent (or raises on error/disconnect), but we wrap it
-    here so every outgoing write in the project goes through one place.
-    """
     sock.sendall(data)
+    """
+        Send every byte in 'data', even if the OS only accepts part of it in a
+        single underlying send() call. socket.sendall() already loops internally
+        until everything is sent (or raises on error/disconnect), but we wrap it
+        here so every outgoing write in the project goes through one place.
+        """
 
 
 # BufferedSocket: solves the "TCP does not preserve message boundaries" issue
